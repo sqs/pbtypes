@@ -8,5 +8,5 @@ import "github.com/gogo/protobuf/gogoproto/gogo.proto";
 // that this value is sanitized HTML code, see
 // https://facebook.github.io/react/tips/dangerously-set-inner-html.html
 message HTML {
-  string HTML = 1 [(gogoproto.jsontag) = "__html"];
+	string HTML = 1 [(gogoproto.jsontag) = "__html"];
 }
